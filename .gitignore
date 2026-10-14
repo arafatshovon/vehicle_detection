@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local data and generated artifacts
+data/
+fold_*/
+runs/
+outputs/
+*.pt
+*.cache
+*.log
+events.out.tfevents.*
+wandb/
+.env
+.DS_Store
